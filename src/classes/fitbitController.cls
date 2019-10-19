@@ -1,4 +1,4 @@
-public class FitbitController {
+public class fitbitController {
     
     @AuraEnabled public static string getUserDetails(){    
         return getResponseBody('callout:Fitbit/1/user/-/profile.json');
